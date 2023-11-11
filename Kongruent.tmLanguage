@@ -4,11 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>kt</string>
-		<string>kts</string>
+		<string>kong</string>
 	</array>
 	<key>name</key>
-	<string>Kotlin</string>
+	<string>Kongruent</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -21,12 +20,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.kotlin</string>
+					<string>keyword.other.kong</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.package.kotlin</string>
+					<string>entity.name.package.kong</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -63,12 +62,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.modifier.kotlin</string>
+							<string>storage.modifier.kong</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.modifier.kotlin</string>
+							<string>storage.modifier.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -83,7 +82,7 @@
 							<key>match</key>
 							<string>\w+</string>
 							<key>name</key>
-							<string>entity.name.type.class.kotlin</string>
+							<string>entity.name.type.class.kong</string>
 						</dict>
 					</array>
 				</dict>
@@ -121,7 +120,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.declaration.kotlin</string>
+							<string>keyword.operator.declaration.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -132,7 +131,7 @@
 							<key>match</key>
 							<string>\w+</string>
 							<key>name</key>
-							<string>entity.other.inherited-class.kotlin</string>
+							<string>entity.other.inherited-class.kong</string>
 						</dict>
 						<dict>
 							<key>begin</key>
@@ -176,13 +175,13 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.kotlin</string>
+							<string>punctuation.definition.comment.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\*/</string>
 					<key>name</key>
-					<string>comment.block.kotlin</string>
+					<string>comment.block.kong</string>
 				</dict>
 				<dict>
 					<key>captures</key>
@@ -190,12 +189,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>comment.line.double-slash.kotlin</string>
+							<string>comment.line.double-slash.kong</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.kotlin</string>
+							<string>punctuation.definition.comment.kong</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -211,19 +210,19 @@
 					<key>match</key>
 					<string>\b(true|false|null|this|super)\b</string>
 					<key>name</key>
-					<string>constant.language.kotlin</string>
+					<string>constant.language.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFf])?\b</string>
 					<key>name</key>
-					<string>constant.numeric.kotlin</string>
+					<string>constant.numeric.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b([A-Z][A-Z0-9_]+)\b</string>
 					<key>name</key>
-					<string>constant.other.kotlin</string>
+					<string>constant.other.kong</string>
 				</dict>
 			</array>
 		</dict>
@@ -282,7 +281,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.kotlin</string>
+							<string>keyword.other.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -308,7 +307,7 @@
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>entity.name.function.kotlin</string>
+									<string>entity.name.function.kong</string>
 								</dict>
 							</dict>
 							<key>match</key>
@@ -337,7 +336,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.declaration.kotlin</string>
+							<string>keyword.operator.declaration.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -371,7 +370,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.assignment.kotlin</string>
+							<string>keyword.operator.assignment.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -398,7 +397,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.declaration.kotlin</string>
+							<string>keyword.operator.declaration.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -419,7 +418,7 @@
 					<key>match</key>
 					<string>\w+</string>
 					<key>name</key>
-					<string>storage.type.generic.kotlin</string>
+					<string>storage.type.generic.kong</string>
 				</dict>
 			</array>
 		</dict>
@@ -435,7 +434,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.kotlin</string>
+							<string>entity.name.function.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -450,7 +449,7 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>keyword.operator.assignment.kotlin</string>
+									<string>keyword.operator.assignment.kong</string>
 								</dict>
 							</dict>
 							<key>end</key>
@@ -486,7 +485,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.kotlin</string>
+							<string>entity.name.function.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -514,7 +513,7 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>keyword.operator.assignment.kotlin</string>
+									<string>keyword.operator.assignment.kong</string>
 								</dict>
 							</dict>
 							<key>end</key>
@@ -554,12 +553,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.kotlin</string>
+							<string>keyword.other.kong</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.kotlin</string>
+							<string>keyword.other.kong</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -575,109 +574,109 @@
 					<key>match</key>
 					<string>\b(var|val|public|private|protected|abstract|final|sealed|enum|open|attribute|annotation|override|inline|vararg|in|out|internal|data|tailrec|operator|infix|const|yield|typealias|typeof|reified|suspend)\b</string>
 					<key>name</key>
-					<string>storage.modifier.kotlin</string>
+					<string>storage.modifier.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(try|catch|finally|throw)\b</string>
 					<key>name</key>
-					<string>keyword.control.catch-exception.kotlin</string>
+					<string>keyword.control.catch-exception.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(if|else|while|for|do|return|when|where|break|continue)\b</string>
 					<key>name</key>
-					<string>keyword.control.kotlin</string>
+					<string>keyword.control.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(in|is|!in|!is|as|as\?|assert)\b</string>
 					<key>name</key>
-					<string>keyword.operator.kotlin</string>
+					<string>keyword.operator.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(==|!=|===|!==|&lt;=|&gt;=|&lt;|&gt;)</string>
 					<key>name</key>
-					<string>keyword.operator.comparison.kotlin</string>
+					<string>keyword.operator.comparison.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(=)</string>
 					<key>name</key>
-					<string>keyword.operator.assignment.kotlin</string>
+					<string>keyword.operator.assignment.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(::)</string>
 					<key>name</key>
-					<string>keyword.operator.kotlin</string>
+					<string>keyword.operator.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(:)</string>
 					<key>name</key>
-					<string>keyword.operator.declaration.kotlin</string>
+					<string>keyword.operator.declaration.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(by)\b</string>
 					<key>name</key>
-					<string>keyword.other.by.kotlin</string>
+					<string>keyword.other.by.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\?\.)</string>
 					<key>name</key>
-					<string>keyword.operator.safenav.kotlin</string>
+					<string>keyword.operator.safenav.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\.)</string>
 					<key>name</key>
-					<string>keyword.operator.dot.kotlin</string>
+					<string>keyword.operator.dot.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\?:)</string>
 					<key>name</key>
-					<string>keyword.operator.elvis.kotlin</string>
+					<string>keyword.operator.elvis.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\-\-|\+\+)</string>
 					<key>name</key>
-					<string>keyword.operator.increment-decrement.kotlin</string>
+					<string>keyword.operator.increment-decrement.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\+=|\-=|\*=|\/=)</string>
 					<key>name</key>
-					<string>keyword.operator.arithmetic.assign.kotlin</string>
+					<string>keyword.operator.arithmetic.assign.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\.\.)</string>
 					<key>name</key>
-					<string>keyword.operator.range.kotlin</string>
+					<string>keyword.operator.range.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\-|\+|\*|\/|%)</string>
 					<key>name</key>
-					<string>keyword.operator.arithmetic.kotlin</string>
+					<string>keyword.operator.arithmetic.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(!|&amp;&amp;|\|\|)</string>
 					<key>name</key>
-					<string>keyword.operator.logical.kotlin</string>
+					<string>keyword.operator.logical.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(;)</string>
 					<key>name</key>
-					<string>punctuation.terminator.kotlin</string>
+					<string>punctuation.terminator.kong</string>
 				</dict>
 			</array>
 		</dict>
@@ -689,7 +688,7 @@
 					<key>match</key>
 					<string>\b(namespace)\b</string>
 					<key>name</key>
-					<string>keyword.other.kotlin</string>
+					<string>keyword.other.kong</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -718,7 +717,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.declaration.kotlin</string>
+							<string>keyword.operator.declaration.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -739,7 +738,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.declaration.kotlin</string>
+							<string>keyword.operator.declaration.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -760,7 +759,7 @@
 					<key>match</key>
 					<string>\w+</string>
 					<key>name</key>
-					<string>variable.parameter.function.kotlin</string>
+					<string>variable.parameter.function.kong</string>
 				</dict>
 			</array>
 		</dict>
@@ -810,7 +809,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.kotlin</string>
+							<string>punctuation.definition.string.begin.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -820,24 +819,24 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.kotlin</string>
+							<string>punctuation.definition.string.end.kong</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.third.kotlin</string>
+					<string>string.quoted.third.kong</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>(\$\w+|\$\{[^\}]+\})</string>
 							<key>name</key>
-							<string>variable.parameter.template.kotlin</string>
+							<string>variable.parameter.template.kong</string>
 						</dict>
 						<dict>
 							<key>match</key>
 							<string>\\.</string>
 							<key>name</key>
-							<string>constant.character.escape.kotlin</string>
+							<string>constant.character.escape.kong</string>
 						</dict>
 					</array>
 				</dict>
@@ -849,7 +848,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.kotlin</string>
+							<string>punctuation.definition.string.begin.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -859,24 +858,24 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.kotlin</string>
+							<string>punctuation.definition.string.end.kong</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.double.kotlin</string>
+					<string>string.quoted.double.kong</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>(\$\w+|\$\{[^\}]+\})</string>
 							<key>name</key>
-							<string>variable.parameter.template.kotlin</string>
+							<string>variable.parameter.template.kong</string>
 						</dict>
 						<dict>
 							<key>match</key>
 							<string>\\.</string>
 							<key>name</key>
-							<string>constant.character.escape.kotlin</string>
+							<string>constant.character.escape.kong</string>
 						</dict>
 					</array>
 				</dict>
@@ -888,7 +887,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.kotlin</string>
+							<string>punctuation.definition.string.begin.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -898,18 +897,18 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.kotlin</string>
+							<string>punctuation.definition.string.end.kong</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.single.kotlin</string>
+					<string>string.quoted.single.kong</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\\.</string>
 							<key>name</key>
-							<string>constant.character.escape.kotlin</string>
+							<string>constant.character.escape.kong</string>
 						</dict>
 					</array>
 				</dict>
@@ -921,7 +920,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.kotlin</string>
+							<string>punctuation.definition.string.begin.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -931,11 +930,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.kotlin</string>
+							<string>punctuation.definition.string.end.kong</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.single.kotlin</string>
+					<string>string.quoted.single.kong</string>
 				</dict>
 			</array>
 		</dict>
@@ -951,7 +950,7 @@
 					<key>match</key>
 					<string>\b(type)\b</string>
 					<key>name</key>
-					<string>keyword.other.kotlin</string>
+					<string>keyword.other.kong</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -980,13 +979,13 @@
 					<key>match</key>
 					<string>\b(Nothing|Any|Unit|String|CharSequence|Int|Boolean|Char|Long|Double|Float|Short|Byte|dynamic)\b</string>
 					<key>name</key>
-					<string>storage.type.buildin.kotlin</string>
+					<string>storage.type.buildin.kong</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(IntArray|BooleanArray|CharArray|LongArray|DoubleArray|FloatArray|ShortArray|ByteArray)\b</string>
 					<key>name</key>
-					<string>storage.type.buildin.array.kotlin</string>
+					<string>storage.type.buildin.array.kong</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -996,7 +995,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.buildin.collection.kotlin</string>
+							<string>storage.type.buildin.collection.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1060,7 +1059,7 @@
 					<key>match</key>
 					<string>(-&gt;)</string>
 					<key>name</key>
-					<string>keyword.operator.declaration.kotlin</string>
+					<string>keyword.operator.declaration.kong</string>
 				</dict>
 			</array>
 		</dict>
@@ -1080,7 +1079,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.kotlin</string>
+							<string>keyword.other.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1106,7 +1105,7 @@
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>entity.name.variable.kotlin</string>
+									<string>entity.name.variable.kong</string>
 								</dict>
 							</dict>
 							<key>match</key>
@@ -1122,7 +1121,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.declaration.kotlin</string>
+							<string>keyword.operator.declaration.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1147,7 +1146,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.kotlin</string>
+							<string>keyword.other.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1168,7 +1167,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.assignment.kotlin</string>
+							<string>keyword.operator.assignment.kong</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1189,7 +1188,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.Kotlin</string>
+	<string>source.kong</string>
 	<key>uuid</key>
 	<string>d508c059-a938-4779-b2bc-ff43a5078907</string>
 </dict>

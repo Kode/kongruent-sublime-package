@@ -1,6 +1,6 @@
 {   "name": "Kotlin",
-    "scopeName": "source.Kotlin",
-    "fileTypes": ["kt", "kts"],
+    "scopeName": "source.Kongruent",
+    "fileTypes": ["kong"],
     "patterns": [
         {
             "include": "#comments"
@@ -8,10 +8,10 @@
         {
             "captures": {
                 "1": {
-                    "name": "keyword.other.kotlin"
+                    "name": "keyword.other.kong"
                 }, 
                 "2": {
-                    "name": "entity.name.package.kotlin"
+                    "name": "entity.name.package.kong"
                 }
             }, 
             "match": "^\\s*(package)\\b(?:\\s*([^ ;$]+)\\s*)?"
@@ -55,19 +55,19 @@
                     "begin": "/\\*", 
                     "captures": {
                         "0": {
-                            "name": "punctuation.definition.comment.kotlin"
+                            "name": "punctuation.definition.comment.kong"
                         }
                     }, 
                     "end": "\\*/", 
-                    "name": "comment.block.kotlin"
+                    "name": "comment.block.kong"
                 }, 
                 {
                     "captures": {
                         "1": {
-                            "name": "comment.line.double-slash.kotlin"
+                            "name": "comment.line.double-slash.kong"
                         }, 
                         "2": {
-                            "name": "punctuation.definition.comment.kotlin"
+                            "name": "punctuation.definition.comment.kong"
                         }
                     }, 
                     "match": "\\s*((//).*$\\n?)"
@@ -79,10 +79,10 @@
                 {
                     "captures": {
                         "1": {
-                            "name": "keyword.other.kotlin"
+                            "name": "keyword.other.kong"
                         },
                         "2": {
-                            "name": "keyword.other.kotlin"
+                            "name": "keyword.other.kong"
                         }
                 },
                 "match": "^\\s*(import)\\s+[^ $]+\\s+(as)?"
@@ -93,7 +93,7 @@
             "patterns": [
                 {
                     "match": "\\b(namespace)\\b",
-                    "name": "keyword.other.kotlin"
+                    "name": "keyword.other.kong"
                 },
                 {
                     "begin": "\\{",
@@ -110,17 +110,17 @@
             "patterns": [
                 {
                     "match": "\\b(Nothing|Any|Unit|String|CharSequence|Int|Boolean|Char|Long|Double|Float|Short|Byte|dynamic)\\b", 
-                    "name": "storage.type.buildin.kotlin"
+                    "name": "storage.type.buildin.kong"
                 },
                 {
                     "match": "\\b(IntArray|BooleanArray|CharArray|LongArray|DoubleArray|FloatArray|ShortArray|ByteArray)\\b", 
-                    "name": "storage.type.buildin.array.kotlin"
+                    "name": "storage.type.buildin.array.kong"
                 },
                 {
                     "begin": "\\b(Array|Collection|List|Map|Set|MutableList|MutableMap|MutableSet|Sequence)<\\b",
                     "beginCaptures": {
                         "1": {
-                            "name": "storage.type.buildin.collection.kotlin"
+                            "name": "storage.type.buildin.collection.kong"
                         }
                     },
                     "end": ">",
@@ -165,7 +165,7 @@
                 },
                 {
                     "match": "(->)",
-                    "name": "keyword.operator.declaration.kotlin"
+                    "name": "keyword.operator.declaration.kong"
                 }
             ]
         },
@@ -175,7 +175,7 @@
                     "begin": "(:)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.declaration.kotlin"
+                            "name": "keyword.operator.declaration.kong"
                         }
                     },
                     "end": "(?=,|>)",
@@ -190,7 +190,7 @@
                 },
                 {
                     "match": "\\w+",
-                    "name": "storage.type.generic.kotlin"
+                    "name": "storage.type.generic.kong"
                 }
             ]
         },
@@ -200,7 +200,7 @@
             "patterns": [
                 {
                     "match": "\\b(type)\\b",
-                    "name": "keyword.other.kotlin"
+                    "name": "keyword.other.kong"
                 },
                 {
                     "begin": "<",
@@ -227,10 +227,10 @@
                     "begin": "\\b(companion\\s*)?(class|object|interface)\\b",
                     "beginCaptures": {
                         "1": {
-                            "name": "storage.modifier.kotlin"
+                            "name": "storage.modifier.kong"
                         },
                         "2": {
-                            "name": "storage.modifier.kotlin"
+                            "name": "storage.modifier.kong"
                         }
                     },
                     "end": "(?=<|\\{|\\(|:|$)",
@@ -240,7 +240,7 @@
                         },
                         {
                             "match": "\\w+",
-                            "name": "entity.name.type.class.kotlin"
+                            "name": "entity.name.type.class.kong"
                         }
                     ]
                 },
@@ -266,14 +266,14 @@
                     "begin": "(:)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.declaration.kotlin"
+                            "name": "keyword.operator.declaration.kong"
                         }
                     },
                     "end": "(?={|$)",
                     "patterns": [
                         {
                             "match": "\\w+",
-                            "name": "entity.other.inherited-class.kotlin"
+                            "name": "entity.other.inherited-class.kong"
                         },
                         {
                             "begin": "\\(",
@@ -305,7 +305,7 @@
                     "begin": "\\b(var|val)\\b",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.other.kotlin" 
+                            "name": "keyword.other.kong" 
                         }
                     },
                     "end": "(?=:|=|(\\b(by)\\b)|$)",
@@ -322,7 +322,7 @@
                         {
                             "captures": {
                                 "2": { 
-                                    "name": "entity.name.variable.kotlin"
+                                    "name": "entity.name.variable.kong"
                                 }
                             },
                             "match": "([\\.<\\?>\\w]+\\.)?(\\w+)"
@@ -333,7 +333,7 @@
                     "begin": "(:)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.declaration.kotlin"
+                            "name": "keyword.operator.declaration.kong"
                         }
                     },
                     "end": "(?==|$)",
@@ -350,7 +350,7 @@
                     "begin": "\\b(by)\\b",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.other.kotlin"
+                            "name": "keyword.other.kong"
                         }
                     },
                     "end": "(?=$)",
@@ -364,7 +364,7 @@
                     "begin": "(=)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.assignment.kotlin"
+                            "name": "keyword.operator.assignment.kong"
                         }
                     },
                     "end": "(?=$)",
@@ -385,7 +385,7 @@
                     "begin": "\\b(get)\\b\\s*\\(\\s*\\)",
                     "beginCaptures": {
                         "1": {
-                            "name": "entity.name.function.kotlin"
+                            "name": "entity.name.function.kong"
                         }
                     },
                     "end": "\\}|(?=\\bset\\b)|$",
@@ -394,7 +394,7 @@
                             "begin": "(=)",
                             "beginCaptures": {
                                 "1": {
-                                    "name": "keyword.operator.assignment.kotlin"
+                                    "name": "keyword.operator.assignment.kong"
                                 }
                             },
                             "end": "(?=$|\\bset\\b)",
@@ -419,7 +419,7 @@
                     "begin": "\\b(set)\\b\\s*(?=\\()",
                     "beginCaptures": {
                         "1": {
-                            "name": "entity.name.function.kotlin"
+                            "name": "entity.name.function.kong"
                         }
                     },
                     "end": "\\}|(?=\\bget\\b)|$",
@@ -437,7 +437,7 @@
                             "begin": "(=)",
                             "beginCaptures": {
                                 "1": {
-                                    "name": "keyword.operator.assignment.kotlin"
+                                    "name": "keyword.operator.assignment.kong"
                                 }
                             },
                             "end": "(?=$|\\bset\\b)",
@@ -468,7 +468,7 @@
                     "begin": "\\b(fun)\\b",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.other.kotlin"
+                            "name": "keyword.other.kong"
                         }
                     },
                     "end": "(?=\\()",
@@ -485,7 +485,7 @@
                         {
                             "captures": {
                                 "2": { 
-                                    "name": "entity.name.function.kotlin"
+                                    "name": "entity.name.function.kong"
                                 }
                             },
                             "match": "([\\.<\\?>\\w]+\\.)?(\\w+)"
@@ -505,7 +505,7 @@
                     "begin": "(:)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.declaration.kotlin"
+                            "name": "keyword.operator.declaration.kong"
                         }
                     },
                     "end": "(?={|=|$)", 
@@ -528,7 +528,7 @@
                     "begin": "(=)", 
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.assignment.kotlin"
+                            "name": "keyword.operator.assignment.kong"
                         }
                     },
                     "end": "(?=$)", 
@@ -546,7 +546,7 @@
                     "begin": "(:)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.declaration.kotlin"
+                            "name": "keyword.operator.declaration.kong"
                         }
                     },
                     "end": "(?=,|\\)|=)", 
@@ -560,7 +560,7 @@
                     "begin": "(=)",
                     "beginCaptures": {
                         "1": {
-                            "name": "keyword.operator.declaration.kotlin"
+                            "name": "keyword.operator.declaration.kong"
                         }
                     },
                     "end": "(?=,|\\))",
@@ -575,7 +575,7 @@
                 },
                 {
                     "match": "\\w+",
-                    "name": "variable.parameter.function.kotlin"
+                    "name": "variable.parameter.function.kong"
                 }
             ]
         },
@@ -613,24 +613,24 @@
                     "begin": "\"\"\"", 
                     "beginCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.begin.kotlin"
+                            "name": "punctuation.definition.string.begin.kong"
                         }
                     }, 
                     "end": "\"\"\"", 
                     "endCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.end.kotlin"
+                            "name": "punctuation.definition.string.end.kong"
                         }
                     }, 
-                    "name": "string.quoted.third.kotlin", 
+                    "name": "string.quoted.third.kong", 
                     "patterns": [
                         {
                             "match": "(\\$\\w+|\\$\\{[^\\}]+\\})",
-                            "name": "variable.parameter.template.kotlin"
+                            "name": "variable.parameter.template.kong"
                         },
                         {
                             "match": "\\\\.", 
-                            "name": "constant.character.escape.kotlin"
+                            "name": "constant.character.escape.kong"
                         }
                     ]
                 },
@@ -638,24 +638,24 @@
                     "begin": "\"", 
                     "beginCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.begin.kotlin"
+                            "name": "punctuation.definition.string.begin.kong"
                         }
                     }, 
                     "end": "\"", 
                     "endCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.end.kotlin"
+                            "name": "punctuation.definition.string.end.kong"
                         }
                     }, 
-                    "name": "string.quoted.double.kotlin", 
+                    "name": "string.quoted.double.kong", 
                     "patterns": [
                         {
                             "match": "(\\$\\w+|\\$\\{[^\\}]+\\})",
-                            "name": "variable.parameter.template.kotlin"
+                            "name": "variable.parameter.template.kong"
                         },
                         {
                             "match": "\\\\.", 
-                            "name": "constant.character.escape.kotlin"
+                            "name": "constant.character.escape.kong"
                         }
                     ]
                 }, 
@@ -663,20 +663,20 @@
                     "begin": "'", 
                     "beginCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.begin.kotlin"
+                            "name": "punctuation.definition.string.begin.kong"
                         }
                     }, 
                     "end": "'", 
                     "endCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.end.kotlin"
+                            "name": "punctuation.definition.string.end.kong"
                         }
                     }, 
-                    "name": "string.quoted.single.kotlin", 
+                    "name": "string.quoted.single.kong", 
                     "patterns": [
                         {
                             "match": "\\\\.", 
-                            "name": "constant.character.escape.kotlin"
+                            "name": "constant.character.escape.kong"
                         }
                     ]
                 },
@@ -684,16 +684,16 @@
                     "begin": "`", 
                     "beginCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.begin.kotlin"
+                            "name": "punctuation.definition.string.begin.kong"
                         }
                     }, 
                     "end": "`", 
                     "endCaptures": {
                         "0": {
-                            "name": "punctuation.definition.string.end.kotlin"
+                            "name": "punctuation.definition.string.end.kong"
                         }
                     }, 
-                    "name": "string.quoted.single.kotlin"
+                    "name": "string.quoted.single.kong"
                 }
             ]
         },
@@ -701,15 +701,15 @@
             "patterns": [
                 {
                     "match": "\\b(true|false|null|this|super)\\b", 
-                    "name": "constant.language.kotlin"
+                    "name": "constant.language.kong"
                 }, 
                 {
                     "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([LlFf])?\\b", 
-                    "name": "constant.numeric.kotlin"
+                    "name": "constant.numeric.kong"
                 },
                 {
                     "match": "\\b([A-Z][A-Z0-9_]+)\\b",
-                    "name": "constant.other.kotlin"
+                    "name": "constant.other.kong"
                 }
             ]
         },
@@ -717,75 +717,75 @@
             "patterns": [
                 {
                     "match": "\\b(var|val|public|private|protected|abstract|final|sealed|enum|open|attribute|annotation|override|inline|vararg|in|out|internal|data|tailrec|operator|infix|const|yield|typealias|typeof|reified|suspend)\\b",
-                    "name": "storage.modifier.kotlin"
+                    "name": "storage.modifier.kong"
                 },
                 {
                     "match": "\\b(try|catch|finally|throw)\\b", 
-                    "name": "keyword.control.catch-exception.kotlin"
+                    "name": "keyword.control.catch-exception.kong"
                 },
                 {
                     "match": "\\b(if|else|while|for|do|return|when|where|break|continue)\\b", 
-                    "name": "keyword.control.kotlin"
+                    "name": "keyword.control.kong"
                 },
                 {
                     "match": "\\b(in|is|!in|!is|as|as\\?|assert)\\b", 
-                    "name": "keyword.operator.kotlin"
+                    "name": "keyword.operator.kong"
                 },
                 {
                     "match": "(==|!=|===|!==|<=|>=|<|>)", 
-                    "name": "keyword.operator.comparison.kotlin"
+                    "name": "keyword.operator.comparison.kong"
                 }, 
                 {
                     "match": "(=)", 
-                    "name": "keyword.operator.assignment.kotlin"
+                    "name": "keyword.operator.assignment.kong"
                 },
                 {
                     "match": "(::)", 
-                    "name": "keyword.operator.kotlin"
+                    "name": "keyword.operator.kong"
                 },
                 {
                     "match": "(:)", 
-                    "name": "keyword.operator.declaration.kotlin"
+                    "name": "keyword.operator.declaration.kong"
                 },
                 {
                     "match": "\\b(by)\\b", 
-                    "name": "keyword.other.by.kotlin"
+                    "name": "keyword.other.by.kong"
                 },
                 {
                     "match": "(\\?\\.)", 
-                    "name": "keyword.operator.safenav.kotlin"
+                    "name": "keyword.operator.safenav.kong"
                 }, 
                 {
                     "match": "(\\.)", 
-                    "name": "keyword.operator.dot.kotlin"
+                    "name": "keyword.operator.dot.kong"
                 }, 
                 {
                     "match": "(\\?:)", 
-                    "name": "keyword.operator.elvis.kotlin"
+                    "name": "keyword.operator.elvis.kong"
                 }, 
                 {
                     "match": "(\\-\\-|\\+\\+)", 
-                    "name": "keyword.operator.increment-decrement.kotlin"
+                    "name": "keyword.operator.increment-decrement.kong"
                 }, 
                 {
                     "match": "(\\+=|\\-=|\\*=|\\/=)",
-                    "name": "keyword.operator.arithmetic.assign.kotlin"
+                    "name": "keyword.operator.arithmetic.assign.kong"
                 },
                 {
                     "match": "(\\.\\.)",
-                    "name": "keyword.operator.range.kotlin"
+                    "name": "keyword.operator.range.kong"
                 },
                 {
                     "match": "(\\-|\\+|\\*|\\/|%)", 
-                    "name": "keyword.operator.arithmetic.kotlin"
+                    "name": "keyword.operator.arithmetic.kong"
                 }, 
                 {
                     "match": "(!|&&|\\|\\|)", 
-                    "name": "keyword.operator.logical.kotlin"
+                    "name": "keyword.operator.logical.kong"
                 },
                 {
                     "match": "(;)", 
-                    "name": "punctuation.terminator.kotlin"
+                    "name": "punctuation.terminator.kong"
                 }
             ]
         }
