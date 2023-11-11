@@ -45,7 +45,7 @@
 		<key>classes</key>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;!::)(?=\b(?:companion|class|object|interface)\b)</string>
+			<string>(?&lt;!::)(?=\b(?:struct)\b)</string>
 			<key>end</key>
 			<string>(?=$|\})</string>
 			<key>patterns</key>
@@ -56,7 +56,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>\b(companion\s*)?(class|object|interface)\b</string>
+					<string>\b(companion\s*)?(struct)\b</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
@@ -977,7 +977,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(Nothing|Any|Unit|String|CharSequence|Int|Boolean|Char|Long|Double|Float|Short|Byte|dynamic)\b</string>
+					<string>\b(bool|int|float|float2|float3|float4|float4x4|tex2d|texcube|sampler)\b</string>
 					<key>name</key>
 					<string>storage.type.buildin.kong</string>
 				</dict>
